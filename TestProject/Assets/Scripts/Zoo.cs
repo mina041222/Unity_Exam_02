@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Zoo : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        Animal tom = new Animal();
+        tom.name = "盆";
+        tom.sound = "衬克!";
+
+        tom.PlaySound();
+
+        Animal Harry = new Animal();
+        Harry.name = "秦府";
+        Harry.sound = "港!港!";
+
+        Harry.PlaySound();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
